@@ -9,7 +9,7 @@
           http://www.springframework.org/schema/context
           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-  <context:component-scan base-package="com.zhaimi.redis"/>
+  <context:component-scan base-package="atter.*"/>
   <context:property-placeholder ignore-unresolvable="true" location="classpath:redis.properties"/>
 
   <!-- jedisPool配置信息 -->
